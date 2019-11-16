@@ -13,6 +13,7 @@ class Waiter
   def self.all
     @@all
   end
+<<<<<<< HEAD
   
   def meals
     Meal.all.select {|meal| meal.waiter == self}
@@ -35,3 +36,6 @@ class Waiter
 end
 
 
+=======
+end
+>>>>>>> 5ec6b9ad87aaea5c09531bff0e40a27109dce016
