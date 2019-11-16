@@ -14,14 +14,13 @@ class Customer
   end
   
   def meals
-<<<<<<< HEAD
     Meal.all.select {|meal| meal.customer == self}
   end
   
   def waiters
     self.meals.map {|meal| meal.waiter }
 =======
-    binding.pryclaer
+    binding.pry
     Meal.all.select {|meal| meal.customer = self}
 >>>>>>> 5ec6b9ad87aaea5c09531bff0e40a27109dce016
   end
